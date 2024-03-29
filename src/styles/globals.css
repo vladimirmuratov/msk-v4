@@ -1,0 +1,36 @@
+:root {
+    --green: #3ec7c7;
+    --red: #b11016;
+    --black: #032630;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+.container {
+    border: 1px solid red;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.img{
+    width: 100%;
+    /*height: 282px;*/
+    filter: brightness(80%);
+    object-fit: cover;
+}
