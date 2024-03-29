@@ -23,7 +23,6 @@ a {
 }
 
 .container {
-    border: 1px solid red;
     max-width: 1140px;
     margin: 0 auto;
 }
