@@ -17,6 +17,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     color: inherit;
     text-decoration: none !important;
@@ -27,7 +31,7 @@ a {
     margin: 0 auto;
 }
 
-.img{
+.img {
     width: 100%;
     /*height: 282px;*/
     filter: brightness(80%);

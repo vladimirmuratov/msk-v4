@@ -1,16 +1,16 @@
 import {TextField, Typography} from '@mui/material'
 import {Controller} from 'react-hook-form'
+import {useState} from 'react'
 
-export const BaseInput = ({
+export const BaseDatePicker = ({
                               control,
                               name,
                               label = '',
                               required = false,
-                              multiline = false,
                               errorType = '',
-                              mask = '',
-                              type = 'text'
                           }) => {
+
+    const [type, setType] = useState('text')
 
     return (
         <>
@@ -26,12 +26,11 @@ export const BaseInput = ({
                     <TextField
                         // InputLabelProps={{ shrink: true }}
                         type={type}
+                        onFocus={() => setType('date')}
+                        onBlur={() => setType('text')}
                         value={value}
-                        placeholder={mask}
                         error={!!errorType}
                         onChange={onChange}
-                        multiline={multiline}
-                        rows={multiline ? 2 : 1}
                         size="small"
                         id="outlined-basic"
                         label={`${label}${required ? '*' : ''}`}

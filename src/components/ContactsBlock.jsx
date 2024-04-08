@@ -7,8 +7,10 @@ export const ContactsBlock = ({onSuccess, onFailed, router}) => {
 
     return (
         <Box
+            id='contacts'
             component="section"
             sx={{
+                scrollMarginTop: '100px',
                 paddingY: {xs: '25px', md: '50px'},
                 paddingX: '12px',
                 display: 'grid',
