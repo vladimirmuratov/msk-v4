@@ -40,7 +40,7 @@ export default function handler(req, res) {
 
     //-------------------------------------
 
-    /*if(req.body.email){
+    if(req.body.email){
         const message2 = {
             from: process.env.ADDRESS_FROM,
             to: [req.body.email],
@@ -53,5 +53,5 @@ export default function handler(req, res) {
         }
 
         transporter.sendMail(message2)
-    }*/
+    }
 }
