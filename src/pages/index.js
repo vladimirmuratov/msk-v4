@@ -16,6 +16,8 @@ import {ContactsBlock} from '@/components/ContactsBlock'
 import {useEffect, useState} from 'react'
 import {FloatBtn} from '@/components/FloatBtn'
 import {BaseModal} from '@/components/base/BaseModal'
+import {Suspense} from 'react'
+import {Metrika} from '@/components/Metrika'
 
 export default function Home() {
     const router = useRouter()
@@ -61,6 +63,9 @@ export default function Home() {
                 <PriceBlock/>
                 <ContactsBlock onSuccess={setSuccess} onFailed={setFailed} router={router}/>
                 <FloatBtn router={router}/>
+                <Suspense>
+                    <Metrika/>
+                </Suspense>
             </Box>
 
             {/*{(success || failed) && <Toast isSuccess={success} isFailed={failed} handleClose={handleClose}/>}*/}
