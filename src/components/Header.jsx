@@ -1,5 +1,6 @@
 import {Box, Divider, Typography} from '@mui/material'
 import {email, phoneNumber} from '@/config'
+import SocialBlock from '@/components/SocialBlock'
 
 export const Header = ({router}) => {
     const goEmail = () => router.push(`mailto:${email}`)

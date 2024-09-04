@@ -2,7 +2,7 @@ import Head from 'next/head'
 import {Box, DialogContentText} from '@mui/material'
 import {Header} from '@/components/Header'
 import {BannerBlock} from '@/components/BannerBlock'
-import {bannerCards, faq, infoCards, services, timeOut} from '@/config'
+import {bannerCards, faq, infoCards, partners, services, timeOut} from '@/config'
 import {useRouter} from 'next/router'
 import {BaseCarousel} from '@/components/base/BaseCarousel'
 import {AboutBlock} from '@/components/AboutBlock'
@@ -18,6 +18,7 @@ import {FloatBtn} from '@/components/FloatBtn'
 import {BaseModal} from '@/components/base/BaseModal'
 import {Suspense} from 'react'
 import {Metrika} from '@/components/Metrika'
+import PartnersBlock from '@/components/PartnersBlock'
 
 export default function Home() {
     const router = useRouter()
@@ -61,6 +62,7 @@ export default function Home() {
                 <FaqBlock info={faq}/>
                 <CallBlock router={router}/>
                 <PriceBlock/>
+                <PartnersBlock partners={partners}/>
                 <ContactsBlock onSuccess={setSuccess} onFailed={setFailed} router={router}/>
                 <FloatBtn router={router}/>
                 <Suspense>

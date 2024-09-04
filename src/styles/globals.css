@@ -3,6 +3,7 @@
     --red: #b11016;
     --black: #032630;
     --white: #ffffff;
+    --gray: gray;
 }
 
 * {
@@ -36,4 +37,10 @@ a {
     /*height: 282px;*/
     filter: brightness(80%);
     object-fit: cover;
+}
+
+.banner-social-mobile{
+    justify-content: center!important;
+    gap: 30px;
+    /*margin-top: 10px;*/
 }

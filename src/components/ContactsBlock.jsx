@@ -1,6 +1,7 @@
 import {Box, Link, Typography} from '@mui/material'
 import {address, phoneNumber} from '@/config'
 import {MessageForm} from '@/components/MessageForm'
+import SocialBlock from '@/components/SocialBlock'
 
 export const ContactsBlock = ({onSuccess, onFailed, router}) => {
     const goPhone = () => router.push(`tel:${phoneNumber}`)
@@ -65,6 +66,7 @@ export const ContactsBlock = ({onSuccess, onFailed, router}) => {
                         >
                             {phoneNumber}
                         </Typography>
+                        <SocialBlock className='banner-social-mobile'/>
                     </Box>
 
                 </Box>
