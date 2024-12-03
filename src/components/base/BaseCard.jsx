@@ -1,10 +1,14 @@
 import {Avatar, Box, Button, Typography} from '@mui/material'
 import {phoneNumber} from '@/config'
 
-export const BaseCard = ({subTitle, title, text, img, icon, router}) => {
+export const BaseCard = ({id, subTitle, title, text, img, icon, router}) => {
+    let altText = id === 1
+        ? 'платные больницы гинекологии'
+        : id === 2 ? 'платные больницы хирургия': 'больница травматология платно'
+
     return (
         <Box sx={{color: 'var(--white)', position: 'relative', display: 'flex',}}>
-            <img className="img" src={img} alt="pic"/>
+            <img className="img" src={img} alt={altText}/>
             <Box sx={{
                 height: '100%',
                 position: 'absolute',

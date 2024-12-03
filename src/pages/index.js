@@ -45,10 +45,11 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>МСК. Дело жизни</title>
-                <meta name="keywords" content="медицинские услуги, скорая помощь, госпитализация"/>
-                <meta name="description" content="компания по оказанию экстренных медицинских услуг"/>
+                <title>Платная госпитализация 8(499)719-81-00, 24/7</title>
+                <meta name="description" content="Доверьте свою госпитализацию профессионалам! МСК предоставляет услуги транспортировки пациентов в московские клиники уже 10 лет. Мы работаем круглосуточно."/>
+                <meta name="keywords" content="гинекология госпитализация, платная госпитализация в москве хирургия, платная травматология москва, госпитализация урология москва, кардиология платная госпитализация, платная госпитализация неврология, платная гастроэнтерология в москве, платный стационар терапия, сомнолог москва лечение храпа"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <meta name="yandex-verification" content="e46f6a1bf2c90dee" />
                 <link rel="icon" href="/icon.png"/>
             </Head>
             <Box component="main" className="container">
