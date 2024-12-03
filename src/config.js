@@ -16,7 +16,8 @@ export const bannerCards = [
         title: 'платная госпитализация из регионов',
         text: 'Госпитализация из регионов и стран СНГ в клинику необходимого профиля.',
         img: '/images/img2.jpg',
-        icon: '/icons/regiony.png'
+        icon: '/icons/regiony.png',
+        alt: 'платные больницы гинекологии'
     },
     {
         id: 2,
@@ -24,7 +25,8 @@ export const bannerCards = [
         title: 'госпитализация в сложных ситуациях',
         text: 'Если вы получили отказ от госпитализации - просто позвоните.',
         img: '/images/img3.jpg',
-        icon: '/icons/tyazhelye.png'
+        icon: '/icons/tyazhelye.png',
+        alt: 'платные больницы хирургия'
     },
     {
         id: 3,
@@ -32,7 +34,8 @@ export const bannerCards = [
         title: 'платная госпитализация в москве',
         text: 'Наша служба гарантирует помощь в госпитализации в кратчайшие сроки.',
         img: '/images/img4.jpg',
-        icon: '/icons/vedomstvennye.png'
+        icon: '/icons/vedomstvennye.png',
+        alt: 'больница травматология платно'
     },
 ]
 
