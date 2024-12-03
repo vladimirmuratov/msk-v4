@@ -21,7 +21,7 @@ export const ContactsBlock = ({onSuccess, onFailed, router}) => {
 
             <Box>
                 <Typography
-                    variant="h5"
+                    variant="h2"
                     sx={{fontSize: 25, fontWeight: 700, color: 'var(--red)', marginBottom: '20px'}}
                 >
                     Связаться с нами

@@ -9,7 +9,7 @@ export const PriceBlock = () => {
                 paddingX: '12px'
             }}>
             <Typography
-                variant="h5"
+                variant="h2"
                 sx={{fontSize: 25, fontWeight: 700, color: 'var(--red)', marginBottom: '20px'}}
             >
                 Цены

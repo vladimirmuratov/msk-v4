@@ -12,7 +12,7 @@ export const AboutBlock = () => {
             }}>
 
             <Box>
-                <Typography variant="h5"
+                <Typography variant="h2"
                             sx={{fontSize: 25, fontWeight: 700, color: 'var(--red)', marginBottom: '20px'}}>
                     О нас
                 </Typography>
