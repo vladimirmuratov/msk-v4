@@ -24,8 +24,9 @@ export const BaseCard = ({alt, subTitle, title, text, img, icon, router}) => {
                     textTransform: 'uppercase'
                 }}>{subTitle}</Typography>
                 <Typography
+                    variant='h2'
                     sx={{fontWeight: 700, fontSize: {xs: 14, sm: 18, md: 20, lg: 18}, lineHeight: {xs: 1.1, sm: 1.3}, textTransform: 'uppercase'}}>{title}</Typography>
-                <Typography sx={{fontSize: {xs: 12, sm: 16, md: 18, lg: 16}, lineHeight: {xs: 1.1, sm: 1.3}}}>{text}</Typography>
+                <Typography variant='h3' sx={{fontSize: {xs: 12, sm: 16, md: 18, lg: 16}, lineHeight: {xs: 1.1, sm: 1.3}}}>{text}</Typography>
                 <Button
                     onClick={() => router.push(`tel:${phoneNumber}`)}
                     variant="contained"

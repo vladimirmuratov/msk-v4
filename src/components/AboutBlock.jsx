@@ -16,7 +16,7 @@ export const AboutBlock = () => {
                             sx={{fontSize: 25, fontWeight: 700, color: 'var(--red)', marginBottom: '20px'}}>
                     О нас
                 </Typography>
-                <Typography sx={{color: 'var(--black)'}}>
+                <Typography variant="h1"  sx={{color: 'var(--black)', fontSize: 16, fontWeight: 400, lineHeight: '24px'}}>
                     Московская Сервисная Компания (МСК) уже 10 лет оказывает услуги платной госпитализации и
                     транспортировки пациентов в ведущие клиники Москвы в круглосуточном режиме.
                 </Typography>
