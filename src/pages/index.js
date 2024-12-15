@@ -50,6 +50,7 @@ export default function Home() {
                 <meta name="keywords" content="гинекология госпитализация, платная госпитализация в москве хирургия, платная травматология москва, госпитализация урология москва, кардиология платная госпитализация, платная госпитализация неврология, платная гастроэнтерология в москве, платный стационар терапия, сомнолог москва лечение храпа"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta name="yandex-verification" content="e46f6a1bf2c90dee" />
+                <link rel="canonical" href="https://delo-zhizni.mskdoctor.ru/" />
                 <link rel="icon" href="/icon.png"/>
             </Head>
             <Box component="main" className="container">
