@@ -31,7 +31,7 @@ const PartnersBlock = ({partners = []}) => {
                 <Typography
                     sx={{
                         color: 'var(--black)',
-                        fontSize: {xs: '16px', sm: '18px'},
+                        fontSize: {xs: '16px', sm: '20px'},
                         fontWeight: 500
                     }}
                 >
