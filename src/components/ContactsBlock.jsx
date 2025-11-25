@@ -1,5 +1,5 @@
 import { Box, Link, Typography } from '@mui/material';
-import { address, phoneNumber } from '@/config';
+import { phoneNumber } from '@/config';
 import { MessageForm } from '@/components/MessageForm';
 import SocialBlock from '@/components/SocialBlock';
 
@@ -50,13 +50,15 @@ export const ContactsBlock = ({ onSuccess, onFailed, router }) => {
                         1237700147343</Typography>
                 </Box>
                 <Box sx={{ marginTop: '20px', display: 'grid', gridTemplateColumns: '1fr 1fr' }}>
-                    <Box sx={{ display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'center' }}>
+
+                    {/*<Box sx={{ display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'center' }}>
                         <img src="/contact-icons/adres.png" alt="icon" />
                         <Typography sx={{ color: 'var(--black)', fontWeight: 700, fontSize: 14, textAlign: 'center' }}>Центральный
                             офис</Typography>
                         <Typography
                             sx={{ color: 'var(--red)', fontWeight: 700, textAlign: 'center' }}>{address}</Typography>
-                    </Box>
+                    </Box>*/}
+
                     <Box sx={{ display: 'flex', flexDirection: 'column', gap: '8px', alignItems: 'center' }}>
                         <img src="/contact-icons/telefon.png" alt="icon" />
                         <Typography sx={{ color: 'var(--black)', fontWeight: 700, fontSize: 14 }}>Телефон</Typography>
