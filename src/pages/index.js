@@ -50,20 +50,22 @@ export default function Home() {
                 <meta name="keywords"
                       content="гинекология госпитализация, платная госпитализация в москве хирургия, платная травматология москва, госпитализация урология москва, кардиология платная госпитализация, платная госпитализация неврология, платная гастроэнтерология в москве, платный стационар терапия, сомнолог москва лечение храпа" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <meta name="yandex-verification" content="e46f6a1bf2c90dee" />
                 <link rel="icon" href="/icon.png" />
                 <meta property="og:locale" content="ru_RU" />
                 <meta property="og:title" content="Платная госпитализация 8 (499) 719-81-00, 24/7" />
                 <meta property="og:description"
                       content="Платная госпитализация в Москве. 10 лет опыта. 20 клиник-партнеров. Федеральные, ведомственные и частные клиники. Работаем по всей территории России и СНГ. Оперативно. Финансовая прозрачность." />
                 <meta property="og:type" content="website" />
-                <meta property="og:url" content="https://delo-zhizni.mskdoctor.ru/" />
-                <meta property="og:image" content="https://delo-zhizni.mskdoctor.ru/images/img1.jpg" />
+                <meta property="og:url" content="https://msk-hospital.vercel.app/" />
+                <meta property="og:image" content="https://msk-hospital.vercel.app/images/img1.jpg" />
                 <meta property="og:image:alt"
                       content="Медицинская Сервисная Компания. Платная госпитализация 8 (499) 719-81-00, 24/7" />
                 <meta property="og:image:type" content="image/jpg" />
                 <meta property="og:site_name"
                       content="Медицинская Сервисная Компания. Экстренная госпитализация 8 (499) 719-81-00, 24/7" />
+
+                <meta name="yandex-verification" content="30cae23bcb9d96bf" />
+                <link rel="canonical" href="https://msk-hospital.vercel.app"/>
             </Head>
             <Box component="main" className="container">
                 <Header router={router} />
